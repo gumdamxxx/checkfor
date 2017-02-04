@@ -1,0 +1,22 @@
+.position-r {
+    position: relative;
+}
+.position-a {
+    position: absolute;
+}
+.up-down-move {
+    -webkit-animation: up-down-move 2s ease-in-out infinite;
+    -webkit-animation-fill-mode: backwards;
+}
+
+@keyframes up-down-move {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
